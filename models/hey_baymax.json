@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "Hey Baymax",
+  "author": "Medieval Apple",
+  "website": "https://medievalapple.net/",
+  "model": "./hey_baymax.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
+  }
+}
